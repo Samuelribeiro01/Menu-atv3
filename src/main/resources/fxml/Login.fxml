@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="358.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.praticamenu.controller.LoginController">
+   <children>
+      <ImageView fx:id="abrirLogin" fitHeight="400.0" fitWidth="600.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Users/Aluno_Manha/Downloads/istockphoto-1407063872-612x612.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="67.0" layoutY="97.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Users/Aluno_Manha/Downloads/62066b1bd7b91b0004122600.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="300.0" layoutY="105.0" opacity="0.4" prefHeight="25.0" prefWidth="209.0" />
+      <Label layoutX="300.0" layoutY="77.0" text="Usuário" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="300.0" layoutY="172.0" text="Senha" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="300.0" layoutY="199.0" opacity="0.4" prefHeight="25.0" prefWidth="209.0" />
+      <Hyperlink layoutX="351.0" layoutY="255.0" text="Esqueceu a senha?" />
+   </children>
+</AnchorPane>
