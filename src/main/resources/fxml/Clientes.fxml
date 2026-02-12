@@ -31,7 +31,7 @@
                 <Font name="Century Gothic" size="24.0" />
             </font>
         </Label>
-        <TextField layoutX="271.0" layoutY="80.0" opacity="0.69" prefHeight="25.0" prefWidth="171.0" />
+        <TextField fx:id="clNome" layoutX="271.0" layoutY="80.0" opacity="0.69" prefHeight="25.0" prefWidth="171.0" />
         <Button layoutX="14.0" layoutY="365.0" mnemonicParsing="false" opacity="0.6" text="Voltar" />
         <Text layoutX="207.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail">
             <font>

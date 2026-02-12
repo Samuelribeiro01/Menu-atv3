@@ -14,7 +14,7 @@ public class HelloApplication extends Application {
                 HelloApplication.class.getResource("/fxml/MainLayout.fxml")
         );
 
-        Scene scene = new Scene(loader.load(), 800, 600);
+        Scene scene = new Scene(loader.load(), 600, 400);
         stage.setTitle("Sistema com menu fixo");
         stage.setScene(scene);
         stage.show();

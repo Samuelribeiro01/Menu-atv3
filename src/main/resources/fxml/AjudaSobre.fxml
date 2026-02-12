@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.SubScene?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="396.0" prefWidth="589.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.praticamenu.controller.AjudaController">
+   <children>
+      <ImageView fitHeight="407.0" fitWidth="600.0" layoutX="-2.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Users/Aluno_Manha/Downloads/m2202_1s_Blue-ocean-beach-wave-wall-mural-Infinite-Break_Mural-Pattern.jpg" />
+         </image>
+      </ImageView>
+      <SubScene height="231.0" layoutX="155.0" layoutY="88.0" opacity="0.5" width="276.0">
+        <root>
+          <Region />
+        </root>
+      </SubScene>
+      <Text layoutX="240.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BMW Vendas">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="255.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Versão Beta" wrappingWidth="87.955078125">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="242.0" fitWidth="106.0" layoutX="28.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Users/Aluno_Manha/Downloads/spinning-cat.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="55.0" layoutX="254.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Users/Aluno_Manha/Downloads/dance-skeleton.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="130.0" layoutX="281.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Users/Aluno_Manha/Downloads/fnaf-fnaf-meme.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="203.0" fitWidth="106.0" layoutX="455.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Users/Aluno_Manha/Downloads/spinning-cat.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,8 +1,13 @@
 package com.example.praticamenu.controller;
 
+import javafx.animation.PauseTransition;
+import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.BorderPane;
+
+import javafx.animation.AnimationTimer;
+import javafx.util.Duration;
 
 //Incorporar caixa de alerta
 import javafx.event.ActionEvent;
@@ -51,7 +56,19 @@ public class MainController {
 
     @FXML
     public void abrirSobre() {
-        carregarTela("Sobre.fxml"); //ESTÁ DANDO ERRO
+        carregarTela("AjudaSobre.fxml");
+    }
+
+    @FXML
+    public void jumpscare() {
+        carregarTela("jumpscare.fxml");
+        PauseTransition pause = new PauseTransition(Duration.millis(600));
+        pause.setOnFinished(event -> {
+            Platform.exit();
+            System.exit(0);
+        });
+
+        pause.play();
     }
 
     private void carregarTela(String fxml){
